@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-vp_xf6#vmi+#e50njb_f5v*a2s3&#h#f!+lb(@(so^&8dwz)8g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -143,6 +143,6 @@ MEDIA_URL = '/media/'
 CORS_ORIGIN_ALLOW_ALL = True
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173',  # Your vue app's development server
-    'http://127.0.0.1:8000',  # Add your Django local server
+    'http://13.49.241.138:8000',  # Your vue app's development server
+    'https://tiny-kelpie-2eaca9.netlify.app/',  # Add your Django local server
 ]
