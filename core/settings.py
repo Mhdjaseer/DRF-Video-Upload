@@ -142,7 +142,7 @@ MEDIA_URL = '/media/'
 
 CORS_ORIGIN_ALLOW_ALL = True
 
-CORS_ALLOWED_ORIGINS = [
-    'http://13.49.241.138:8000',  # Your vue app's development server
-    'https://tiny-kelpie-2eaca9.netlify.app',  # Add your Django local server
-]
+# CORS_ALLOWED_ORIGINS = [
+#     'http://13.49.241.138:8000',  # Your vue app's development server
+#     'https://tiny-kelpie-2eaca9.netlify.app',  # Add your Django local server
+# ]
